@@ -14,3 +14,20 @@ Berikut adalah fungsi untuk mengubah suhu-suhu dari derajat kelvin ke derajat fa
 
 ### 2. Penjelasan kedua
 
+![Screenshot (675)](https://user-images.githubusercontent.com/115686359/208242586-27e7d7c9-d3c8-481a-8f52-ae5cf7fc84a2.png)
+
+Contoh diatas untuk membuka file, menulis konten, dan keluar tidak ada masalah, ini menghasilkan sebagai berikut:
+```
+Written content in the file successfully
+```
+Menghasilkan seperti itu karna else akan dijalankan ketika try adalah true.
+
+### 3. Penjelasan ketiga
+
+![Screenshot (676)](https://user-images.githubusercontent.com/115686359/208242752-03643ab6-56d1-40e4-bbb1-b69186cd9acd.png)
+
+Mengapa muncul error?
+```
+Error: can't find file or read data
+```
+r adalah read-membuka file untuk dibaca, error jika file tidak ada. 
